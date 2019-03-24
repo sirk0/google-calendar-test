@@ -33,7 +33,7 @@ class CalendarPositiveTest(unittest.TestCase):
 
     def test_event_summary(self):
         assert self.event['summary'] == 'Appointment at Somewhere'
-    
+
     def test_event_is_listed_once(self):
         events = self.service.events().list(
             calendarId=self.calendar['id'], pageToken=None).execute()

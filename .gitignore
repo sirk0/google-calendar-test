@@ -1,0 +1,7 @@
+__pycache__
+.mypy_cache
+.pytest_cache
+.DS_Store
+calendar.dat
+client_secrets.json
+env

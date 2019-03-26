@@ -20,6 +20,7 @@ Test Google Calendar API
 Run on a local PC:
 
 ```bash
+python3 -m venv env
 . env/bin/activate
 pip3 install -r requirements.txt
 pytest
